@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('webfont.woff2') format('woff2'), /* Super Modern Browsers */ url('webfont.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
+nav {
+  text-align: left;
+  overflow: hidden;
+  margin: auto;
+  max-width: auto;
+  padding: 10px 20px 20px 20px;
+  border-top: 5px solid rgba(0, 0, 0, 0.05);
+  background: linear-gradient(124deg, #1abc9c, #2ecc71, #3498db, #9b59b6, #34495e, #16a085, #27ae60, #2980b9, #8e44ad, #2c3e50);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 70s ease infinite;
+  -z-animation: rainbow 70s ease infinite;
+  -o-animation: rainbow 70s ease infinite;
+  animation: rainbow 70s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#project {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 4rem;
+}
+.tombol {
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2em;
+  margin: 10px;
+}
+
+hr {
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  margin: auto;
+  max-width: auto;
+  padding: 10px 20px 20px 20px;
+  border-top: 5px solid rgba(0, 0, 0, 0.05);
+  background: linear-gradient(124deg, #0fdcb3, #a01326, #3498db, #9b59b6, #34495e, #16a085, #27ae60, #2980b9, #8e44ad, #2c3e50);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 70s ease infinite;
+  -z-animation: rainbow 70s ease infinite;
+  -o-animation: rainbow 70s ease infinite;
+  animation: rainbow 70s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  } 
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+footer {
+  text-align: left;
+  overflow: hidden;
+  margin: auto;
+  max-width: auto;
+  padding: 10px 20px 20px 20px;
+  border-top: 5px solid rgba(0, 0, 0, 0.05);
+  background: linear-gradient(124deg, #1abc9c, #2ecc71, #3498db, #9b59b6, #34495e, #16a085, #27ae60, #2980b9, #8e44ad, #2c3e50);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 70s ease infinite;
+  -z-animation: rainbow 70s ease infinite;
+  -o-animation: rainbow 70s ease infinite;
+  animation: rainbow 70s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+/* .icon {
+  position: absolute;
+  margin-top: auto;
+  transform: translateY(-90%);
+  width: 100%;
+  text-align: center;
+}
+.tombol {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #f1f1f1;
+  margin: 30px;
+  border-radius: 30%;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  color: #2980b9;
+}
+.tombol i {
+  transition: 0.2s linear;
+  font-size: 26px;
+  line-height: 50px;
+}
+.tombol:hover i {
+  transform: scale(1.3);
+  color: #68afa4;
+} */
