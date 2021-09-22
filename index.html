@@ -13,6 +13,9 @@
 
     <!-- animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- jam -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
 
     <!-- csss -->
     <link rel="stylesheet" href="style.css" />
@@ -52,6 +55,11 @@
 
     <!-- jumbotron -->
     <section class="jumbotron text-center">
+      <div class="clock">
+        <div class="clockwise hours"></div>
+        <div class="clockwise minutes"></div>
+        <div class="clockwise seconds"></div>
+      </div>
       <img src="img/wahyu.jpg" alt="wahyu" width="200" class="rounded-circle img-thumbnail" />
       <h2 class="display-4">WAHYUHIDAYAT</h2>
       <p class="lead"></p>
@@ -302,5 +310,7 @@
           .catch((error) => console.error('Error!', error.message));
       });
     </script>
+    
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
